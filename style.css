@@ -8,14 +8,17 @@ body{
 }
 header{
     position: sticky;
+    top: 0%;
     display: inline-block;
     width: 100%;
+    margin: 0%;
+    background-color:#f2f2f2;
+    border-bottom: 2px solid #29A829;
 }
 header nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0px 5px 50px #9966cc;
     padding: 0% 2% 0% 2%;
 }
 header nav ul{
@@ -32,7 +35,7 @@ header nav ul li a{
     text-decoration: none;
     color: #8040BF;
     border-radius: 8px;
-    padding: 1% 2.5% 1% 2.5%;
+    padding: 3%;
 }
 
 header nav div img{
@@ -41,6 +44,8 @@ header nav div img{
 }
 header nav div a{
     width: 15%;
+    display: flex;
+    justify-content: center;
 }
 
 header nav div:last-child img{
@@ -114,7 +119,8 @@ main section.frases div p{
 main section.frases img{
     width: 55%;
     border-radius: 15px;
-    border: 3px solid #29A829;
+    padding: 1%;
+    border: 2px solid #29A829;
     margin-top: 15%;
 }
 main section.frases div:last-child{
@@ -172,16 +178,35 @@ main section.Compra input:last-child{
 
 
 main section.producto{
-    width: 90%;
+    width: 80%;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    margin: 15% 0% 0% 10%;
+}
+main section.producto div{
+    width: 40%;
 }
 main section.producto img{
-    width: 30%;
+    width: 80%;
     padding: 1%;
     border: 2px solid #29A829;
     border-radius: 15px;
 }
+
+
+
+main section.Nosotros{
+    width: 40%;
+    margin-left: 30%;
+}
+main section.Nosotros img{
+    padding: 1%;
+    border: 1px solid #8040BF;
+    border-radius: 15px;
+    margin: 2%;
+}
+
+
 
 
 footer{  
